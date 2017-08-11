@@ -1,0 +1,589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads Payment Gateway by Novalnet - Version 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-10 19:04+0530\n"
+"PO-Revision-Date: 2014-12-10 19:06+0530\n"
+"Last-Translator: Novalnet AG <sales@novalnet.de>\n"
+"Language-Team: Novalnet <sales@novalnet.de>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_;gettext;gettext_noop;__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /var/www/dev/edd-novalnet-gateway\n"
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:35
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:38
+msgid "Easy Digital Downloads Payment Gateway by Novalnet"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:35
+msgid "add-on requires"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:35
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:35
+msgid "plugin. Please install and activate it."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:38
+msgid "requires "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:38
+msgid "PHP CURL."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:38
+msgid " Please install/enable php_curl!"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:94
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:107
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:123
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:564
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:593
+msgid "Basic Parameter not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:100
+msgid "Amount value is not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:134
+msgid "Manual limit amount / Product-ID2 / Tariff-ID2 is not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:160
+msgid "SEPA Due date is not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:205
+msgid "Customer name/email fields are not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:211
+msgid "Note: The filed tax was not enabled in this shop to get the invoice details necessary for executing Novalnet payments."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:243
+msgid "You will be redirected to Novalnet AG in a few seconds"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:243
+msgid "Redirecting..."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:303
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:345
+msgid "Novalnet Transaction ID: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:308
+msgid "Test order"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:311
+msgid "Please transfer the amount to the following information to our payment service Novalnet AG"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:313
+msgid "Due date: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:315
+msgid "Account holder: Novalnet AG"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:316
+msgid "IBAN: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:317
+msgid "BIC: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:318
+msgid "Bank: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:319
+msgid "Amount: "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:320
+msgid "Reference: TID "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:374
+msgid "Check Hash failed"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:425
+msgid "Following steps are required to complete your payment:"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:425
+msgid "Step 1: Please call the telephone number displayed:"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:425
+msgid "* This call will cost {amount} (including VAT) and it is possible only for German landline connection! *"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:425
+msgid "Step 2: Please wait for the beep and then hang up the listeners."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:425
+msgid "After your successful call, please proceed with the payment."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:493
+msgid "Required parameter not valid"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/edd-novalnet-gateway.php:589
+msgid "In order to use SEPA direct debit, please log in or enter your address. "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/templates/novalnet_cc.php:2
+#: /var/www/dev/edd-novalnet-gateway/templates/novalnet_sepa.php:2
+msgid "Loading..."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:25
+msgid "Novalnet Instant Bank Transfer"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:39
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:40
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:39
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:39
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:39
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:39
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:42
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:39
+msgid "Please Note: This transaction will run on TEST MODE and the amount will not be charged"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:42
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:42
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:42
+msgid "You will be redirected to Novalnet AG website when you place the order."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:95
+msgid "Novalnet Instant Bank Transfer Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:96
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:173
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:97
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:96
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:96
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:96
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:168
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:134
+msgid "Configure the gateway settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:101
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:178
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:102
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:101
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:101
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:101
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:173
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:139
+msgid "Enable Test Mode"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:107
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:197
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:108
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:107
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:107
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:107
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:185
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:145
+msgid "Novalnet Merchant ID "
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:108
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:198
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:109
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:108
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:108
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:108
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:186
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:146
+msgid "Enter your Novalnet Merchant ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:114
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:204
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:115
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:114
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:114
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:114
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:192
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:152
+msgid "Novalnet Merchant Authorisation code"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:115
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:205
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:116
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:115
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:115
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:115
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:193
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:153
+msgid "Enter your Novalnet Merchant Authorisation code"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:121
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:211
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:122
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:121
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:121
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:121
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:199
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:159
+msgid "Novalnet Product ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:122
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:212
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:123
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:122
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:122
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:122
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:200
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:160
+msgid "Enter your Novalnet Product ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:128
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:218
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:129
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:128
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:128
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:128
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:206
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:166
+msgid "Novalnet Tariff ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:129
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:219
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:130
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:129
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:129
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:129
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:207
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:167
+msgid "Enter your Novalnet Tariff ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:135
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:246
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:135
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:135
+msgid "Novalnet Payment access key"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:136
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:247
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:136
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:136
+msgid "Enter your Novalnet payment access key"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:142
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:253
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:142
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:241
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:173
+msgid "Order completion status"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:149
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:260
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:150
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:149
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:156
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:177
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:248
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:180
+msgid "Information to the end customer (this will appear in the payment page)"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:155
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:266
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:156
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:155
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:162
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:183
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:254
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:186
+msgid "Referrer ID"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:156
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:267
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:157
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:156
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:163
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:184
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:255
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:187
+msgid "Referrer ID of the partner at Novalnet, who referred you (only numbers allowed)"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:162
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:273
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:163
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:162
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:169
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:190
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:261
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:193
+msgid "Transaction reference 1"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:163
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:170
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:274
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:281
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:164
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:171
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:163
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:170
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:170
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:177
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:191
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:198
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:262
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:269
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:194
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:201
+msgid "This will appear in the transactions details / account statement"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_banktransfer.php:169
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:280
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:170
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:169
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:176
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:197
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:268
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:200
+msgid "Transaction reference 2"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:25
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:26
+msgid "Novalnet Credit Card"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:43
+msgid "The amount will be booked immediately from your credit card when you submit the order."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:148
+msgid "Please enter valid credit card details!"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:172
+msgid "Novalnet Credit Card Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:184
+msgid "3D Secure(note : this has to be set up at Novalnet first. Please contact support@novalnet.de, in case you wish this.)"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:185
+msgid "(Please note that this procedure has a low acceptance among end customers.) As soon as 3D-Secure is activated for credit cards, the bank prompts the end customer for a password, to prevent credit card abuse. This can serve as a proof, that the customer is actually the owner of the credit card"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:191
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:179
+msgid "Auto refill the payment data entered in payment page"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:225
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:213
+msgid "Manual checking of order, above amount in cents (Note: this is a onhold booking, needs your manual verification and activation)"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:226
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:214
+msgid "All the orders above this amount will be set on hold by Novalnet and only after your manual verifcation and confirmation at Novalnet the booking will be done"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:232
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:220
+msgid "Second Product ID for manual check condition"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:233
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:221
+msgid "Second Product ID in Novalnet to use the manual check condition"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:239
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:227
+msgid "Second Tariff ID for manual check condition"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_cc.php:240
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:228
+msgid "Second Tariff ID in Novalnet to use the manual check condition"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:25
+msgid "Novalnet Prepayment"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:42
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:41
+msgid "The bank details will be emailed to you soon after the completion of checkout process."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:96
+msgid "Novalnet Prepayment Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:136
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:142
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:163
+msgid "Order Status Before Payment"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_prepayment.php:143
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:149
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:170
+msgid "Order Status After Payment"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:25
+msgid "Novalnet iDEAL"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_ideal.php:95
+msgid "Novalnet iDEAL Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:25
+msgid "Novalnet Invoice"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:95
+msgid "Novalnet Invoice Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:135
+msgid "Payment period in days"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_invoice.php:136
+msgid "Enter the due date in days, it should be greater than 6. If you leave as empty or less than 7 means default value will be considered as 14 days"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:25
+msgid "Novalnet PayPal"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:95
+msgid "Novalnet PayPal Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:142
+msgid "PayPal API User Name"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:143
+msgid "Please enter your PayPal API username"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:149
+msgid "PayPal API Password"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:150
+msgid "Please enter your PayPal API password"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:156
+msgid "PayPal API Signature"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_paypal.php:157
+msgid "Please enter your PayPal API signature"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:25
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:26
+msgid "Novalnet Direct Debit SEPA"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:44
+msgid "Your account will be debited upon delivery of goods."
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:141
+msgid "Please confirm IBAN & BIC!"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:144
+msgid "Please enter valid account details!"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:167
+msgid "Novalnet Direct Debit SEPA Settings"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:234
+msgid "SEPA Payment duration in days"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_sepa.php:235
+msgid "Enter the Due date in days, it should be greater than 6. If you leave as empty means default value will be considered as 7 days"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:24
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:25
+msgid "Novalnet Telephone Payment"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:42
+msgid "Your amount will be added in your telephone bill when you place the order"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:112
+msgid "You have changed the order amount after receiving telephone number, please try again with a new call"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:122
+msgid "Amounts below 0,99 Euros and above 10,00 Euros cannot be processed and are not accepted!"
+msgstr ""
+
+#: /var/www/dev/edd-novalnet-gateway/includes/novalnet_telephone.php:133
+msgid "Novalnet Telephone Payment Settings"
+msgstr ""
+
